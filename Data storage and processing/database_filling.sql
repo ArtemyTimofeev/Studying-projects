@@ -1,0 +1,32 @@
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (1, 'АФГАНИСТАН', 'AFGHANISTAN');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (2, 'ТУРЦИЯ', 'TURKEY');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (3, 'МОЛДОВА', 'MOLDOVA');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (4, 'КАЗАХСТАН', 'KAZAKHSTAN');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (5, 'БЕЛАРУСЬ', 'BELARUS');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (6, 'ГРУЗИЯ', 'GEORGIA');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (7, 'УЗБЕКИСТАН', 'UZBEKISTAN');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (8, 'ГЕРМАНИЯ', 'GERMANY');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (9, 'ПОЛЬША', 'POLAND');
+INSERT INTO country(id_country, country_name, country_name_en) VALUES (10, 'ТАДЖИКИСТАН', 'TAJIKISTAN');
+
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (1, 'ПШЕНИЧНАЯ МУКА', 'WHEAT FLOUR', 'МУЧНОЕ', 'ОБЩЕГО НАЗНАЧЕНИЯ', '250', '50');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (2, 'СЕМЕНА ПОДСОЛНЕЧНИКА', 'SUNFLOWER SEEDS', 'МАСЛИЧНЫЕ', 'ВЫСШИЙ СОРТ', '350', '100');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (3, 'ВОДА', 'WATER', 'ЖИДКОСТИ', 'РАСХОДНИК', '10', '1000');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (4, 'МОЛОКО', 'MILK', 'МОЛОЧНЫЕ ПРОДУКТЫ', 'РАСХОДНИК', '590', '100');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (5, 'САХАР', 'SUGAR', 'САХАРА', 'ДЛЯ СИРОПА', '15', '100');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (6, 'ПАТОКА', 'TREACLE', 'КАРАМЕЛЬНОЕ', 'ДЛЯ СИРОПА', '780', '1040');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (7, 'ГРЕЦКИЙ ОРЕХ', 'WALNUT', 'ОРЕХИ', 'ДЛЯ НАЧИНКИ', '1730', '500');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (8, 'КУКУРУЗНАЯ МУКА', 'CORN FLOUR', 'ЗЛАКОВОЕ', 'ОБЩЕГО НАЗНАЧЕНИЯ', '290', '1060');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (9, 'АРАХИС', 'PEANUT', 'БОБОВЫЕ', 'В СКОРЛУПЕ', '1450', '300');
+INSERT INTO resources(id_resource, resource_name, resource_name_en, res_type, mark, price, menge) VALUES (10, 'СМЕТАНА', 'SOUR CREAM', 'КИСЛОМОЛОЧКА', 'ДЛЯ НАЧИНКИ', '1730', '500');
+
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (1, 'КОЗИНАКИ', 'KOZINAKI', 'МАСЛИЧНЫЕ', '2500', '50');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (2, 'ХАЛВА', 'HALVA', 'МАСЛИЧНЫЕ', '1300', '60');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (3, 'ПРЯНИКИ', 'TREACLE CAKES', 'МУЧНОЕ', '400', '10');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (4, 'ИРИС', 'TOFFEE', 'ХИМИЯ', '340', '220');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (5, 'ЗЕФИР', 'MARSHMALLOW', 'МОЛОЧНЫЕ ПРОДУКТЫ', '120', '15');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (6, 'ПАХЛАВА', 'PAHLAVA', 'ОРЕХИ', '765', '50');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (7, 'БУШЕ', 'BOUCHER', 'МУЧНОЕ', '710', '70');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (8, 'АРАХИСОВАЯ ПАСТА', 'PEANUT BUTTER', 'ОРЕХИ', '890', '110');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (9, 'ВАФЛИ', 'WAFER', 'МУЧНОЕ', '250', '150');
+INSERT INTO products(id_product, product_name, product_name_en, res_type, price, menge) VALUES (10, 'ЩЕРБЕТ', 'SORBET', 'ХИМИЯ', '670', '100');
